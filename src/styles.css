@@ -1,0 +1,50 @@
+body {
+  font-family: sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  position: relative;
+  color: white;
+}
+
+#rod-1 {
+  position: fixed;
+  height: 20px;
+  width: 150px;
+  border: 1px solid black;
+  top: 0;
+  left: 45%;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: slateblue;
+  display: flex;
+  justify-content: center;
+}
+
+#ball {
+  position: fixed;
+  height: 20px;
+  width: 20px;
+  top: 20px;
+  left: 50%;
+  border-radius: 50%;
+  background-color: crimson;
+}
+
+#rod-2 {
+  position: fixed;
+  height: 20px;
+  width: 150px;
+  border: 1px solid black;
+  bottom: 0;
+  left: 45%;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: plum;
+  display: flex;
+  justify-content: center;
+}
